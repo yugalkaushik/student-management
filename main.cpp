@@ -46,7 +46,7 @@ int main() {
         cout << "6. Save and exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
-        cin.ignore(); // Ignore newline left in the input buffer
+        cin.ignore();
 
         switch(choice) {
             case 1:
@@ -120,11 +120,11 @@ void addStudent(vector<Student>& students, vector<string>& courses) {
 
     cout << "Age: ";
     cin >> newStudent.age;
-    cin.ignore(); // Ignore newline left in the input buffer
+    cin.ignore(); 
 
     cout << "Gender (M/F): ";
     cin >> newStudent.gender;
-    cin.ignore(); // Ignore newline left in the input buffer
+    cin.ignore(); 
 
     // Display courses and allow the user to select or add a new course
     displayCourses(courses);
@@ -132,13 +132,13 @@ void addStudent(vector<Student>& students, vector<string>& courses) {
         int choice;
         cout << "Select a course number (or enter 0 to add a new course): ";
         cin >> choice;
-        cin.ignore(); // Ignore newline left in the input buffer
+        cin.ignore();
 
         if (choice >= 1 && choice <= courses.size()) {
             newStudent.course = courses[choice - 1];
         } else if (choice == 0) {
             addCourse(courses);
-            newStudent.course = courses.back(); // Use the newly added course
+            newStudent.course = courses.back(); 
         } else {
             cout << "Invalid choice. Using default course.\n";
             newStudent.course = "Unknown";

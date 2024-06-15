@@ -1,0 +1,5 @@
+Yugal 101 20 M CSE
+Tina 102 20 F Psychology
+Scarlet 103 21 F MBBS
+Sam 104 22 M ECE
+Thor 105 25 M AIML: R programming, Data Science, Machine Learning

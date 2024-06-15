@@ -1,0 +1,5 @@
+CSE: Operating System, Data Structure and Algorithm, Computer Networks
+ECE: VLSI Design, Digital Signal Processing
+AIML: R programming, Data Science, Machine Learning
+Psychology: Clinical Psychology, Social Psychology,Cognitive
+MBBS: Pathology, Microbiology, Anatomy
